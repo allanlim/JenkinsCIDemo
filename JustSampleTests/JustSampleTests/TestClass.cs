@@ -14,7 +14,14 @@ namespace JustSampleTests
         public void TestMethodPass()
         {
             // TODO: Add test code here
-            Assert.Pass("This test has passed!");
+            Assert.Pass("This test has passed");
+        }
+        
+        [Test]
+        public void TestMethodFail()
+        {
+            // TODO: Add test code here
+            Assert.Fail("This test has failed");
         }
         
         [Test]
@@ -29,6 +36,6 @@ namespace JustSampleTests
         {
             // TODO: Add test code here
             Assert.Inconclusive("This test was inconclusive");
-        }}
+        }
     }
 }
