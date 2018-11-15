@@ -11,10 +11,31 @@ namespace JustSampleTests
     public class TestClass
     {
         [Test]
-        public void TestMethod()
+        public void TestMethodPass()
         {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+            // TODO: Add test code here
+            Assert.Pass("This test has passed");
+        }
+        
+        [Test]
+        public void TestMethodFail()
+        {
+            // TODO: Add test code here
+            Assert.Fail("This test has failed");
+        }
+        
+        [Test]
+        public void TestMethodIgnore()
+        {
+            // TODO: Add test code here
+            Assert.Ignore("This test has been ignored");
+        }
+        
+        [Test]
+        public void TestMethodInconclusive()
+        {
+            // TODO: Add test code here
+            Assert.Inconclusive("This test was inconclusive");
         }
     }
 }
