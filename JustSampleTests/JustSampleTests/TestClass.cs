@@ -23,7 +23,11 @@ namespace JustSampleTests
             // TODO: Add test code here
             Assert.Fail("This test has failed");
         }
-        
+    }
+    
+    [TextFixture]
+    public class TestClass2
+    {
         [Test]
         public void TestMethodIgnore()
         {
