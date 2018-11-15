@@ -14,7 +14,7 @@ namespace JustSampleTests
         public void TestMethodPass()
         {
             // TODO: Add test code here
-            Assert.Pass("This test has passed!");
+            Assert.Pass("This test has passed");
         }
         
         [Test]
