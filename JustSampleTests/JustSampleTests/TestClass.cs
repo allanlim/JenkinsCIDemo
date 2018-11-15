@@ -29,6 +29,6 @@ namespace JustSampleTests
         {
             // TODO: Add test code here
             Assert.Inconclusive("This test was inconclusive");
-        }
+        }}
     }
 }
