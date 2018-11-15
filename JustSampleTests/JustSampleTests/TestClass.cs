@@ -21,14 +21,14 @@ namespace JustSampleTests
         public void TestMethodIgnore()
         {
             // TODO: Add test code here
-            Assert.Ignore("This test has been ignored");
+            Assert.Ignore("This test has been ignored!");
         }
         
         [Test]
         public void TestMethodInconclusive()
         {
             // TODO: Add test code here
-            Assert.Inconclusive("This test was inconclusive");
+            Assert.Inconclusive("This test was inconclusive!");
         }
     }
 }
