@@ -16,13 +16,7 @@ namespace JustSampleTests
             // TODO: Add test code here
             Assert.Pass("This test has passed");
         }
-       
-        [Test]
-        public void TestMethodFail()
-        {
-            // TODO: Add test code here
-            Assert.Fail("This test has failed");
-        }
+
         
         [Test]
         public void TestMethodIgnore()
