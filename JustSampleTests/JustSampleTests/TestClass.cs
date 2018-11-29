@@ -31,4 +31,13 @@ namespace JustSampleTests
             Assert.Inconclusive("This test was inconclusive!");
         }
     }
+    public class TestClass2
+    {
+        [Test]
+        public void TestMethodPass()
+        {
+            // TODO: Add test code here
+            Assert.Pass("This test has passed!");
+        }
+    }       
 }
