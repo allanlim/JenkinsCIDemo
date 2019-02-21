@@ -21,7 +21,7 @@ namespace JustSampleTests
         public void TestMethodIgnore()
         {
             // TODO: Add test code here
-            Assert.Ignore("This test has been ignored!");
+            Assert.Ignore("This test has been ignored!!");
         }
         
         [Test]
