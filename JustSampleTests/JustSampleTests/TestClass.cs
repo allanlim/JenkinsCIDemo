@@ -37,7 +37,7 @@ namespace JustSampleTests
         public void TestMethodPass()
         {
             // TODO: Add test code here
-            Assert.Pass("This test has passed!!");
+            Assert.Fail("This test has failed!!");
         }
     }       
 }
